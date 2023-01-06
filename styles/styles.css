@@ -39,3 +39,39 @@
   border: 0;
   margin-top: 28px;
 }
+
+/* failures section styles */
+
+.failures{
+    display: flex;
+}
+.image{
+    margin-left: 206px;
+    margin-top: 131px;
+}
+
+.failures-container{
+    margin-top: 350px;
+    margin-left: 150px;
+    margin-right: 300px;
+}
+.failures-thoughts{
+color:  #444343;
+
+}
+.failures-title{
+    color: #151414;
+    font-weight: 800;
+font-size: 40px;
+}
+li{
+    color: #444343;
+    list-style: none;
+}
+
+ul > li{
+    margin-bottom: 15px;
+}
+li:before{
+content: "\1F5F8";
+}
