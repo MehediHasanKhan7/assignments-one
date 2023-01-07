@@ -1,4 +1,5 @@
 * {
+    margin: 0;
   font-family: "Open Sans", sans-serif;
   font-family: "Work Sans", sans-serif;
 }
@@ -26,7 +27,6 @@
   color: #444343;
   font-weight: 400;
   font-size: 16px;
-
 }
 .primary-btn {
   border-radius: 5px;
@@ -42,36 +42,189 @@
 
 /* failures section styles */
 
-.failures{
-    display: flex;
+.failures {
+  display: flex;
 }
-.image{
-    margin-left: 206px;
-    margin-top: 131px;
+.image {
+  margin-left: 206px;
+  margin-top: 131px;
 }
 
-.failures-container{
-    margin-top: 350px;
-    margin-left: 150px;
-    margin-right: 300px;
+.failures-container {
+  margin-top: 350px;
+  margin-left: 150px;
+  margin-right: 300px;
 }
-.failures-thoughts{
-color:  #444343;
+.failures-thoughts {
+  color: #444343;
+}
+.failures-title {
+  color: #151414;
+  font-weight: 800;
+  font-size: 40px;
+}
+li {
+  color: #444343;
+  list-style: none;
+}
 
+ul > li {
+  margin-bottom: 15px;
 }
-.failures-title{
-    color: #151414;
-    font-weight: 800;
+li:before {
+  content: "\1F5F8";
+}
+/* my plans styles */
+
+.plans-title {
+  text-align: center;
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+.plans-icons {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 60px;
+}
+
+.icons-description {
+  color: #737272;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.web-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.java-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.smoke-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.ecom-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.web {
+  text-align: center;
+}
+.java {
+  text-align: center;
+}
+.smoke {
+  text-align: center;
+}
+.ecom {
+  text-align: center;
+}
+.plans-icons > .icons-description{
+    margin-bottom: 100px;
+}
+
+/* second banner styles */
+
+.second-banner-header{
+    background-image:linear-gradient(to right, rgba(230,126,34,1) 5%,rgba(230,126,34,.7) 30%,rgba(230,126,34,.5) 50%, rgba(230,126,34,0) 100%), url('../images/watch.png');
+    
+    border-radius: 10px;
+   background-size: cover;
+    width: 1140px;
+height: 300px;
+margin-left: 230px;
+margin-right: 230px;
+margin-top: 130px;
+margin-bottom: 130px;
+}
+.second-banner-description{
+    padding-left: 74px;
+    padding-top: 38px;
+    padding-bottom: 59px;
+   
+}
+
+.second-banner-title{
+    color:  #FFFFFF;
+    font-weight: 700;
 font-size: 40px;
 }
-li{
-    color: #444343;
-    list-style: none;
+.second-primary-btn{
+    border-radius: 5px;
+  background: #ffffff;
+  color: #fd6e0a;
+  font-size: 20px;
+  font-weight: 600;
+  width: 140px;
+  height: 55px;
+  border: none;
+}
+.call-btn{
+    margin-top: 15px;
 }
 
-ul > li{
-    margin-bottom: 15px;
+/* footer section styles */
+
+.footer{
+    background-color:  #151414;
+    width: 1600px;
+height: 577px;
 }
-li:before{
-content: "\1F5F8";
+.main-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px;
+    background-size: cover;
+}
+.left-footer-title{
+    color: #F8F8F8;
+    font-weight: 700;
+font-size: 45px;
+margin-bottom: 16px;
+
+}
+.left-footer-description{
+color: #FFFFFF;
+font-size: 16px;
+}
+.left-footer-email{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.left-footer-phone{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.right-footer-title{
+    color: #F8F8F8;
+    font-weight: 600;
+font-size: 25px;
+margin-bottom: 31px;
+}
+.your-email{
+    width: 300px;
+height: 56px;
+font-size: 18px;
+background-color:  #151414;
+border-style: solid;
+border-radius: 10px; margin-bottom: 16px;
+}
+.first{
+    margin-right: 10px;
+}
+.second{
+    margin-right: 10px;
 }
