@@ -199,14 +199,17 @@ margin-bottom: 16px;
 .left-footer-description{
 color: #FFFFFF;
 font-size: 16px;
+margin-bottom: 20px;
 }
 .left-footer-email{
     color: #FFFFFF;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 .left-footer-phone{
     color: #FFFFFF;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 .right-footer-title{
     color: #F8F8F8;
